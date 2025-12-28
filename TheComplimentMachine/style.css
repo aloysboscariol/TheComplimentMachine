@@ -1,0 +1,54 @@
+body {
+    margin:0;
+    height: 100vh;
+    background: linear-gradient(135deg, #506a88, #58b6db);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {transform : translateY(0);}
+    50% {transform : translateY(-10px);}
+    100% {transform : translateY(0);}
+}
+
+button {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    background: #f387d8;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3) inset;
+}
+
+#compliment {
+    margin-top: 30px;
+    font-size: 1.4rem;
+    max-width: 500px;
+    min-height: 50px;
+    text-align: center;
+}
