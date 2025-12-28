@@ -12,10 +12,10 @@ A simple, fun, and heartwarming web app that generates random compliments to bri
 
 ##  Project Structure
 TheComplimentMachine
-  -index.html # Main HTML file
-  -style.css # CSS styles
-  -script.js # JavaScript logic
-  -README.md # This file
+  - index.html # Main HTML file
+  - style.css # CSS styles
+  - script.js # JavaScript logic
+  - README.md # This file
 
 ##  How to Use
 
@@ -33,5 +33,6 @@ or go to https://aloysboscariol.github.io/TheComplimentMachine/
 ##  License
 
 This project is free to use and modify for personal or educational purposes.
+
 
 
